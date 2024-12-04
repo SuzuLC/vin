@@ -1,0 +1,106 @@
+@import url("https://fonts.googleapis.com/css2?family=Aclonica&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@700&display=swap');
+/*body {
+  background-image: url("https://media1.tenor.com/m/ncHwlj4_05gAAAAd/nod-kermit-nod.gif");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 1920px 1080px;
+}*/
+header {
+  height: fit-content;
+  background-color: #DDFFF7;
+}
+footer {
+  height: 50pt;
+  background-color:  #DDFFF7;
+}
+.logo{
+  float: left;
+  
+}
+.logo a{
+  text-decoration: none;
+}
+.logo a h1 {
+  font-family: "Aclonica", sans-serif;
+  color:  #93E1D8;
+  font-size: 300%;
+}
+nav{
+  height: fit-content;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.nav1{
+  flex: auto 1 3;
+  padding: 0 5%
+}
+.nav2{
+  flex: auto 1 1;
+}
+nav ul{
+  width: fit-content;
+  list-style: none;
+}
+nav ul li{
+  float: left;
+}
+nav ul li a{
+  text-decoration: none;
+}
+.navigation{
+  color: #93E1D8;
+  font-family: "Aclonica", sans-serif;
+}
+.button{
+  border-radius: 1em 3.5em;
+  width: fit-content;
+  height: fit-content;
+  border: 3px solid #FFA69E;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 1.2%;
+  padding: 0px 20px
+}
+.button h1{
+  font-family: "Comfortaa", serif;
+  text-align: center;
+  font-size: 170%;
+  color: #FFA69E;
+  
+}
+h1{
+  margin:0;
+  padding: 0;
+}
+.container{
+  display: flex;
+  flex-direction: column; 
+  justify-content: center;
+  align-items: center;
+
+}
+.instruction {
+  color: #FFA69E;
+  font-family: "Comfortaa", serif;
+  font-size: 1.5em;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.circle {
+  width: 200px;
+  height: 200px;
+  border: 16px solid #FFA69E;
+  border-radius: 50%;
+  transition: transform 4s ease-in-out;
+  margin-bottom: 20px;
+}
+
+#startButton {
+  padding: 10px 20px;
+  font-size: 1em;
+  cursor: pointer;
+}
